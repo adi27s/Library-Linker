@@ -1,7 +1,7 @@
 # Library-Linker
 Scripts for Static and Dynamic library linking
 
-# Static Library [.a/.lib]
+## Static Library [.a/.lib]
 
 - Compiled during runtime, so no need to worry about lib present on the user machine and no runtime loading cost
 - In cases of changes, entire code has to be recompiled
@@ -15,7 +15,7 @@ ar rcs static_lib.a static_lib.o [can add more obj files]<br>
 gcc -c main.c -o main.o<br>
 gcc -o exe main.o -L. static_lib.a<br>
 
-# Dynamic Library [.so/.dll]
+## Dynamic Library [.so/.dll]
 
 gcc -c -fPIC dynamic_lib.c -o dynamic_lib.o<br>
 gcc -shared -o libdynamic_lib.so dynamic_lib.o<br>
