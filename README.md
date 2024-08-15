@@ -4,7 +4,7 @@ Scripts for Static and Dynamic library linking
 ## Static Library [.a/.lib]
 
 - Compiled during runtime, so no need to worry about lib presence on the user machine and no runtime loading cost
-- In cases of changes, entire code has to be recompiled
+- In case of changes, the entire code has to be recompiled
 
 Code flow:
 1. Create static library: [lib .c->.o] -> [lib .o->.a]
