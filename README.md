@@ -3,7 +3,7 @@ Scripts for Static and Dynamic library linking
 
 ## Static Library [.a/.lib]
 
-- Compiled during runtime, so no need to worry about lib present on the user machine and no runtime loading cost
+- Compiled during runtime, so no need to worry about lib presence on the user machine and no runtime loading cost
 - In cases of changes, entire code has to be recompiled
 
 Code flow:
